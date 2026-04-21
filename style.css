@@ -12,7 +12,7 @@
   --line-color: #d7deea;
   --primary: rgb(176, 34, 34);
   --primary-dark: color-mix(in srgb, firebrick 75%, black 25%);
-  --accent: color(display-p3 0.89 0.94 1 / 1);
+  --accent: #e3efff;
   --accent-soft: hsla(210, 100%, 92%, 0.55);
   --shadow: 0 0.3rem 1rem rgba(0, 0, 0, 0.08);
   --radius: 16px;
@@ -186,7 +186,7 @@ a[href^="#"]:active {
 
 /* id selector */
 #agenda {
-  background-color: color-mix(in srgb, white 88%, var(--accent) 12%);
+  background-color: #f7fbff;
 }
 
 /* element.class selector */
