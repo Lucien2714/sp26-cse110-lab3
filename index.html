@@ -4,17 +4,38 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Kickoff Meeting Minutes - 4/11/2026</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      /* internal CSS example */
+      mark {
+        background-color: #fff3a3;
+        padding: 0.1em 0.35em;
+        border-radius: 0.35em;
+      }
+    </style>
   </head>
   <body>
-    <header>
+    <header class="hero">
       <h1>Kickoff Meeting Minutes</h1>
       <h2>Team Kickoff / Planning</h2>
       <h3>Date: April 11, 2026</h3>
       <p><strong>Time:</strong> 10:00 AM - 11:00 AM</p>
       <p><strong>Location:</strong> Virtual through Google Meet</p>
+      <p>
+        <mark>Note:</mark> These minutes summarize the team's first planning
+        meeting and next steps.
+      </p>
     </header>
 
-    <nav>
+    <nav class="toc">
       <h2>Contents</h2>
       <ul>
         <li><a href="#attendance">Attendance</a></li>
@@ -28,10 +49,10 @@
     </nav>
 
     <main>
-      <section id="attendance">
+      <section id="attendance" class="panel">
         <h2>Attendance</h2>
 
-        <article>
+        <article class="card">
           <h3>Members Attended</h3>
           <ul>
             <li>Angel</li>
@@ -43,7 +64,7 @@
           </ul>
         </article>
 
-        <article>
+        <article class="card">
           <h3>Members with Communicated Absence</h3>
           <ul>
             <li>Brenda</li>
@@ -51,7 +72,7 @@
           </ul>
         </article>
 
-        <article>
+        <article class="card">
           <h3>Members with Uncommunicated Absence</h3>
           <ul>
             <li>Sofia</li>
@@ -61,7 +82,7 @@
         </article>
       </section>
 
-      <section id="agenda">
+      <section id="agenda" class="panel">
         <h2>Agenda</h2>
         <ol>
           <li>Team Branding</li>
@@ -71,56 +92,61 @@
         </ol>
       </section>
 
-      <section id="unfinished-business">
+      <section id="unfinished-business" class="panel">
         <h2>Unfinished Business</h2>
-        <p>
-          Since this was the kickoff meeting, there was no unfinished business from a previous meeting.
+        <p style="color: darkblue;">
+          Since this was the kickoff meeting, there was no unfinished business
+          from a previous meeting.
         </p>
       </section>
 
-      <section id="new-business">
+      <section id="new-business" class="panel">
         <h2>New Business</h2>
 
-        <article>
+        <article class="card important">
           <h3>Team Branding</h3>
           <ul>
             <li>The team color is <strong>red</strong>.</li>
             <li>The team mascot is a <strong>hot dog guy</strong>.</li>
             <li>Dmitri will draw the hot dog guy.</li>
-            <li>The icon will be used for both the team logo and the Slack workspace logo.</li>
+            <li>
+              The icon will be used for both the team logo and the Slack
+              workspace logo.
+            </li>
           </ul>
         </article>
 
-        <article>
+        <article class="card">
           <h3>Team Page</h3>
           <p>
-            This task has been delegated to Kaung, who will reach out to members in Slack
-            to find a teammate to help build the page.
+            This task has been delegated to Kaung, who will reach out to members
+            in Slack to find a teammate to help build the page.
           </p>
         </article>
 
-        <article>
+        <article class="card">
           <h3>Introduction Video</h3>
           <p>
-            Each member of the team will send a short clip introducing themselves.
-            Anirudh will stitch these clips together to create the final introduction video.
+            Each member of the team will send a short clip introducing
+            themselves. Anirudh will stitch these clips together to create the
+            final introduction video.
           </p>
         </article>
 
-        <article>
+        <article class="card">
           <h3>Team Contract</h3>
           <p>
-            The team reviewed the provided conversation starters and brainstormed bullet
-            points for each category.
+            The team reviewed the provided conversation starters and brainstormed
+            bullet points for each category.
           </p>
           <p>
-            The contract will have an addendum later to list all group roles once the
-            project is decided and the needed roles are known.
+            The contract will have an addendum later to list all group roles
+            once the project is decided and the needed roles are known.
           </p>
         </article>
       </section>
 
-      <section id="miscellaneous">
+      <section id="miscellaneous" class="panel">
         <h2>Miscellaneous Comments / Questions / Concerns</h2>
         <ul>
           <li>Need to finalize the exact project direction in a future meeting.</li>
@@ -129,7 +155,7 @@
         </ul>
       </section>
 
-      <section id="diagrams">
+      <section id="diagrams" class="panel media-section">
         <h2>Pictures / Diagrams</h2>
         <figure>
           <img
@@ -138,15 +164,15 @@
             width="400"
           />
           <figcaption>
-            A random picture.
+            Early visual placeholder for the team mascot direction.
           </figcaption>
         </figure>
       </section>
 
-      <section id="recordings">
+      <section id="recordings" class="panel media-section">
         <h2>Meeting Recordings</h2>
 
-        <article>
+        <article class="card">
           <h3>Audio Recording</h3>
           <audio controls>
             <source src="media/audio/audio.mp3" type="audio/mpeg" />
@@ -154,7 +180,7 @@
           </audio>
         </article>
 
-        <article>
+        <article class="card">
           <h3>Video Recording</h3>
           <video controls width="480">
             <source src="media/video/vid.mp4" type="video/mp4" />
